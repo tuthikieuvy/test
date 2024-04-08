@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital@0;1&family=Quicksand:wght@300..700&display=swap');
+.Montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{font-family: "Montserrat", sans-serif; font-size: 16px;color:#1C1C1C;margin: 0}
+header{width: 100%; height: 60px; background-color:#DCDCDC; border-bottom: 2px solid darkred}
+.menu ul{margin: 0; padding: 0;list-style: none;display: flex}
+.menu{padding-top: 18px}
+.menu ul li a{color: #1C1C1C;text-decoration: none; padding: 10px 20px;border-radius: 20px;font-size: 17px}
+.menu ul li a:hover{color: white;background-color: darkred}
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #4DC7A0; }
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+main{width:100%;min-height: 500px}
+aside{width: 30%;padding: 15px;min-height: 400px}
+.content{width: 70%;padding: 15px;min-height: 400px}
+.text-do{color: darkred}
+aside ul{display: flex;list-style: none;flex-direction:column;margin: 0;padding: 0}
+aside ul li{border-bottom: 1px solid #1C1C1C}
+aside ul a{text-decoration: none;display: block;color: #1C1C1C;padding:10px}
+aside ul a:hover{background-color: darkred;color: white}
+.text-center{text-align: center}
+footer{width:100%; min-height:300px;margin: 0; background-color: #DCDCDC}
+footer a{color:#2A2A2A; text-decoration: none}
+footer a:hover{color: darkred}
+.bg-xanh{background-color:#5DAADB; text-align: center}
+footer ul{margin: 0;padding: 0;list-style: none; display: flex; flex-direction: column}
+footer ul li a{padding: 10px;display: block}
+footer ul li a:hover{color:white}
+
+
+
+	
